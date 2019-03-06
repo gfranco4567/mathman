@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @historical.user_id %>
+</p>
+
+<p>
+  <strong>Test:</strong>
+  <%= @historical.test_id %>
+</p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @historical.type_id %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @historical.date %>
+</p>
+
+<p>
+  <strong>Exercise:</strong>
+  <%= @historical.exercise_id %>
+</p>
+
+<p>
+  <strong>Answer:</strong>
+  <%= @historical.answer %>
+</p>
+
+<p>
+  <strong>Response:</strong>
+  <%= @historical.response %>
+</p>
+
+<p>
+  <strong>Correct:</strong>
+  <%= @historical.correct %>
+</p>
+
+<%= link_to 'Edit', edit_historical_path(@historical) %> |
+<%= link_to 'Back', historicals_path %>
